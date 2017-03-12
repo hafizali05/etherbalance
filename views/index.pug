@@ -1,0 +1,12 @@
+html
+  head
+    title= title
+  body
+    h1 Address
+    p Please enter the address e.g 738d145faabb1e00cf5a017588a9c0f998318012
+    h1= message
+    form#address(method='post', action='/')
+      div
+        input(type='text', name='address', placeholder='address')
+      div
+        input(type='submit')
