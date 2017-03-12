@@ -1,12 +1,13 @@
 {
   "name": "etherbalance",
   "version": "1.0.0",
-  "description": "",
+  "description": "async await using node js version 6",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start"
   },
-  "author": "",
+  "author": "hafiz didarali",
   "license": "ISC",
   "dependencies": {
     "asyncawait": "^1.0.6",
