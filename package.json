@@ -1,7 +1,7 @@
 {
-  "name": "leaguetable",
+  "name": "etherbalance",
   "version": "1.0.0",
-  "description": "football league table",
+  "description": "async await using node js version 6",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,10 +10,11 @@
   "author": "hafiz didarali",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.1",
+    "asyncawait": "^1.0.6",
+    "axios": "^0.15.3",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "express-error-handler": "^1.1.0",
-    "express-handlebars": "^3.0.0"
+    "pug": "^2.0.0-beta11"
   }
 }
